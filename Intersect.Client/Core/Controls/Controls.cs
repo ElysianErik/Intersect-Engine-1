@@ -64,10 +64,10 @@ public partial class Controls
         CreateControlMap(Control.MoveDown, new ControlValue(Keys.None, Keys.Down), new ControlValue(Keys.None, Keys.S));
         CreateControlMap(Control.MoveLeft, new ControlValue(Keys.None, Keys.Left), new ControlValue(Keys.None, Keys.A));
         CreateControlMap(Control.MoveRight, new ControlValue(Keys.None, Keys.Right), new ControlValue(Keys.None, Keys.D));
-        CreateControlMap(Control.AttackInteract, new ControlValue(Keys.None, Keys.E), new ControlValue(Keys.None, Keys.LButton));
+        CreateControlMap(Control.AttackInteract, new ControlValue(Keys.None, Keys.Space), new ControlValue.Default);
         CreateControlMap(Control.Block, new ControlValue(Keys.None, Keys.Q), new ControlValue(Keys.None, Keys.RButton));
         CreateControlMap(Control.AutoTarget, new ControlValue(Keys.None, Keys.Tab), ControlValue.Default);
-        CreateControlMap(Control.PickUp, new ControlValue(Keys.None, Keys.Space), ControlValue.Default);
+        CreateControlMap(Control.PickUp, new ControlValue(Keys.None, Keys.E), ControlValue.Default);
         CreateControlMap(Control.Enter, new ControlValue(Keys.None, Keys.Enter), ControlValue.Default);
         CreateControlMap(Control.Hotkey1, new ControlValue(Keys.None, Keys.D1), ControlValue.Default);
         CreateControlMap(Control.Hotkey2, new ControlValue(Keys.None, Keys.D2), ControlValue.Default);
